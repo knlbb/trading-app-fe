@@ -1,34 +1,52 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
+import profileImage from '../images/profile.svg'
+import walletImage from '../images/wallet.svg'
+import dashImage from '../images/dash.svg'
+import newsImage from '../images/news.svg'
+import stockChartImage from '../images/stockChart.svg'
+import moduleImage from '../images/modules.svg'
+import aiImage from '../images/ai.svg'
 
 
 export default function Sidebar() {
   return (
-    <div>
-        <Button>Hello world</Button>
-        <div className="w-full h-screen flex flex-cols text-center">
-            <div className="w-1/8 bg-slate-200 h-full p-4 hidden md:flex flex-col">
-                <div className="px-4">
-                </div>
-                <div className="justify-stretch py-5 grid grid-cols-1 gap-3 my-auto">
-                    <div className="bg-slate-100 shadow-md rounded-md px-4 py-3">
-                    Tutorials
-                    </div>
-                    <div className="bg-slate-100 shadow-md rounded-md px-4 py-3">
-                    Components
-                    </div>
-                    <div className="bg-slate-100 shadow-md rounded-md px-4 py-3">
-                    Contact
-                    </div>
-                </div>
-                <div>
-                    FOOTER
-                </div>
-                </div>
-            <div className="grid grid-cols-1 gap-3 w-1/2 mx-auto h-1/2">
-            <div className="text-4xl pt-10">HELLO WORLD</div>
-                <div className="block">
-                <button className="bg-slate-100 shadow-md px-4 py-3"> Get started</button></div>
+    <div className='h-screen align-center flex items-center p-5'>
+        <div className="w-20 rounded-2xl h-3/4 align-center flex items-center bg-black p-1 flex-cols text-center gap-1 grid grid-rows-7 text-white">
+            <div className='rounded-2xl'>
+                <button className='w-full aspect-square flex justify-center items-center hover:bg-gray-100 hover:bg-opacity-25 rounded-2xl'>
+                <img className='h-8 w-8' src={profileImage}/>
+                </button>
+            </div>
+            <div className='rounded-2xl'>
+                <button className='w-full aspect-square flex justify-center items-center hover:bg-gray-100 hover:bg-opacity-25  rounded-2xl'>
+                    <img className='h-8 w-8' src={walletImage}/>
+                </button>
+            </div>
+            <div className='rounded-2xl'>
+                <button className='w-full aspect-square flex justify-center items-center hover:bg-gray-100  hover:bg-opacity-25 rounded-2xl'>
+                    <img className='h-8 w-8' src={stockChartImage}/>
+                </button>
+            </div>
+            <div className='rounded-2xl'>
+                <button className='w-full aspect-square flex justify-center items-center bg-gray-100  bg-opacity-25 rounded-2xl'>
+                    <img className='h-8 w-8' src={dashImage}/>
+                </button>
+            </div>
+            <div className='rounded-2xl'>
+                <button className='w-full aspect-square flex justify-center items-center hover:bg-gray-100  hover:bg-opacity-25 rounded-2xl'>
+                    <img className='h-8 w-8' src={newsImage}/>
+                </button>
+            </div>
+            <div className='rounded-2xl'>
+                <button className='w-full aspect-square flex justify-center items-center hover:bg-gray-100  hover:bg-opacity-25 rounded-2xl'>
+                    <img className='h-8 w-8' src={moduleImage}/>
+                </button>
+            </div>
+            <div className='rounded-2xl'>
+                <button className='w-full aspect-square flex justify-center items-center hover:bg-gray-100  hover:bg-opacity-25 rounded-2xl'>
+                    <img className='h-8 w-8' src={aiImage}/>
+                </button>
             </div>
         </div> 
     </div>
