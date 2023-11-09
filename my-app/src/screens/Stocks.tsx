@@ -8,10 +8,7 @@ function Stocks() {
             <Sidebar screenName="stocks"/>
         </div>
         <div className='items-center flex'>
-            dd
-        </div>
-        <div>
-            dd
+            Stocks
         </div>
     </div>
   )

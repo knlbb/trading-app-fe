@@ -8,10 +8,7 @@ export default function Profile() {
             <Sidebar screenName="profile"/>
         </div>
         <div className='items-center flex'>
-            dd
-        </div>
-        <div>
-            dd
+            Profile
         </div>
     </div>
   )

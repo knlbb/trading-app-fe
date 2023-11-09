@@ -8,10 +8,7 @@ function AI() {
             <Sidebar screenName="ai"/>
         </div>
         <div className='items-center flex'>
-            dd
-        </div>
-        <div>
-            dd
+            AI
         </div>
     </div>
   )

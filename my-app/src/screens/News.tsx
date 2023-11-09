@@ -8,10 +8,7 @@ export default function News() {
             <Sidebar screenName="news"/>
         </div>
         <div className='items-center flex'>
-            dd
-        </div>
-        <div>
-            dd
+            News
         </div>
     </div>
   )

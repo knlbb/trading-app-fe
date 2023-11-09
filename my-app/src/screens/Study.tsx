@@ -8,10 +8,7 @@ export default function Study() {
             <Sidebar screenName="modules"/>
         </div>
         <div className='items-center flex'>
-            dd
-        </div>
-        <div>
-            dd
+            Study
         </div>
     </div>
   )
