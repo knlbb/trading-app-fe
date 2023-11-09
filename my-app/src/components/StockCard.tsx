@@ -19,7 +19,6 @@ export function StockCard({companyLogo, companyTickerName, stockPrice, postiveSt
 				<>up</> // show stock price UP image 
 				
 				:
-				
 				<>down</> // show stock price DOWN image
 			}
 		</div>

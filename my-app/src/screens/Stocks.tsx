@@ -1,11 +1,11 @@
 import React from 'react'
 import Sidebar from '../components/Sidebar'
 
-export default function Profile() {
+function Stocks() {
   return (
     <div className={'grid grid-flow-col auto-cols-min'}>
         <div className=''>
-            <Sidebar screenName="profile"/>
+            <Sidebar screenName="stocks"/>
         </div>
         <div className='items-center flex'>
             dd
@@ -16,3 +16,5 @@ export default function Profile() {
     </div>
   )
 }
+
+export default Stocks
